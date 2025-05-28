@@ -10,20 +10,21 @@
 
         <div>
             <label for="errorData">Error Data (hex string):</label>
+            <div class="example">
+                Example: 0x08c379a0 (standard Error(string))
+            </div>
             <input
                 type="text"
                 id="errorData"
                 placeholder="Enter error data (e.g., 0x78fde478)"
                 value="" />
-            <div class="example">
-                Example: 0x08c379a0 (standard Error(string))
-            </div>
         </div>
 
         <div>
             <label for="customErrors"
                 >Custom Error Definitions (one per line):</label
             >
+            <div class="example">Example: error InsufficientBalance();</div>
             <textarea
                 id="customErrors"
                 rows="8"
